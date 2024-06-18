@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'poc-nx-module-federation',
+  displayName: 'remote-app1',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/poc-nx-module-federation',
+  coverageDirectory: '../../coverage/apps/remote-app1',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
