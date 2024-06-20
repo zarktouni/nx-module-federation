@@ -9,9 +9,9 @@ import { CounterDataService } from '@poc-nx-module-federation/counter-data';
 @Component({
   standalone: true,
   imports: [CommonModule, DecrementButtonComponent, IncrementButtonComponent, ResetButtonComponent],
-  selector: 'app-remote-app1-entry',
+  selector: 'app-remote-app2-entry',
   template: 
-  `<h1> Hello, it's meee --remote app1-- </h1>
+  `<h1> Hello, it's meee --remote app2-- </h1>
   <div>Counter: {{ count$ | async }}</div>
   <lib-decrement-button></lib-decrement-button>
   <lib-increment-button></lib-increment-button>
